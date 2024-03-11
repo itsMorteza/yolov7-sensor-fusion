@@ -30,9 +30,9 @@ pip intsall -r requirement.txt
 change the path inside the cfg/dataset/Kitti.yaml.
 Download yolov7 from the https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt
 ```shell
-python train.py --cfg cfg/training/yolov7-BGF.yaml --data cfg/dataset/Kitti.yaml --weights 'yolov7.pt' --hyp cfg/dataset/hyp.scratch.p5-kitti.yaml --epochs 100 --img 640 640 --batch-size 8 --freeze 50
+python train.py --cfg cfg/training/yolov7-BGF.yaml --data data/Kitti.yaml --weights 'yolov7.pt' --hyp cfg/dataset/hyp.scratch.p5-kitti.yaml --epochs 100 --img 640 640 --batch-size 8 --freeze 50
 ```
 ## Testing
 ```shell
-python test.py --cfg cfg/models/yolov7-BGF.yaml --data cfg/datasets/Kitti.yaml --weights {path_to_weights} --hyp cfg/datasets/hyp.scratch.p5-kitti.yaml --no-trace --batch-size 1 
+python test.py --cfg cfg/models/yolov7-BGF.yaml --data data/Kitti.yaml --weights {path_to_weights} --hyp cfg/datasets/hyp.scratch.p5-kitti.yaml --no-trace --batch-size 1 
 ```

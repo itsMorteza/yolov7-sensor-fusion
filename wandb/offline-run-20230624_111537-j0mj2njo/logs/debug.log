@@ -1,0 +1,26 @@
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Configure stats pid to 43717
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Loading settings from /home/morteza/.config/wandb/settings
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Loading settings from /comm_dat/morteza/yolov7/wandb/settings
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/comm_dat/morteza/yolov7/train.py'}
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_setup.py:_flush():76] Applying login settings: {'mode': 'offline'}
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_init.py:_log_setup():507] Logging user logs to /comm_dat/morteza/yolov7/wandb/offline-run-20230624_111537-j0mj2njo/logs/debug.log
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_init.py:_log_setup():508] Logging internal logs to /comm_dat/morteza/yolov7/wandb/offline-run-20230624_111537-j0mj2njo/logs/debug-internal.log
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_init.py:init():547] calling init triggers
+2023-06-24 11:15:37,699 INFO    MainThread:43717 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'weights': './runs/train/yolov7-RGB-LLVIP16/weights/last.pt', 'cfg': '', 'data': 'data/LLVIP.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.1, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.3, 'cls_pw': 1.0, 'obj': 0.7, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.2, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 0, 'mixup': 0.0, 'copy_paste': 0.0, 'paste_in': 0.0, 'loss_ota': 0.0}, 'epochs': 60, 'batch_size': 8, 'img_size': [640, 640], 'rect': False, 'resume': True, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'yolov7-RGB-LLVIP', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'freeze': [0], 'v5_metric': False, 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs/train/yolov7-RGB-LLVIP16', 'total_batch_size': 8}
+2023-06-24 11:15:37,700 INFO    MainThread:43717 [wandb_init.py:init():596] starting backend
+2023-06-24 11:15:37,700 INFO    MainThread:43717 [wandb_init.py:init():600] setting up manager
+2023-06-24 11:15:37,702 INFO    MainThread:43717 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-24 11:15:37,704 INFO    MainThread:43717 [wandb_init.py:init():606] backend started and connected
+2023-06-24 11:15:37,708 INFO    MainThread:43717 [wandb_init.py:init():703] updated telemetry
+2023-06-24 11:15:37,806 INFO    MainThread:43717 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-24 11:15:37,811 INFO    MainThread:43717 [wandb_init.py:init():787] starting run threads in backend
+2023-06-24 11:15:40,473 INFO    MainThread:43717 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-24 11:15:40,473 INFO    MainThread:43717 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-24 11:15:40,473 INFO    MainThread:43717 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-24 11:15:40,473 INFO    MainThread:43717 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-24 11:15:40,474 INFO    MainThread:43717 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-24 11:15:42,893 WARNING MsgRouterThr:43717 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,12 @@
+# Kitti dataset http://cocodataset.org
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./datasets/kitti/trainped.txt # 118287 images
+val: ./datasets/kitti/trainped.txt # 5000 images
+test: ./datasets/kitti/trainped.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1
+DATASET_NAME : KITTI
+# class names
+names: [ 'Car', 'Pedestrian', 'Cyclist' ]
